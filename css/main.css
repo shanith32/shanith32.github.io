@@ -1,3 +1,23 @@
-/* .title {
-  font-size: 150px;
-} */
+#titleName {
+  font-size: 5rem !important;
+}
+
+#sec2col1 {
+  border-bottom: 0px solid #e6ecf8;
+  border-right: 1px solid #e6ecf8;
+}
+
+.i {
+  width: 3rem !important;
+}
+
+@media (max-width: 768px) {
+  #titleName {
+    font-size: 4rem !important;
+  }
+
+  #sec2col1 {
+    border-bottom: 1px solid #e6ecf8;
+    border-right: 0px solid #e6ecf8;
+  }
+}
