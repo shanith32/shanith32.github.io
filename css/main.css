@@ -1,3 +1,11 @@
+#sec1 {
+  padding-bottom: 0rem !important;
+}
+
+#sec2 {
+  padding-top: 2rem !important;
+}
+
 #titleName {
   font-size: 5rem !important;
 }
@@ -9,6 +17,11 @@
 
 .i {
   width: 3rem !important;
+}
+
+#sec2col1,
+#sec2col2 {
+  padding: 40px;
 }
 
 @media (max-width: 768px) {
