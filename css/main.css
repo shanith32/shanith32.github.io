@@ -1,9 +1,13 @@
-#sec1 {
+.section {
   padding-bottom: 0rem !important;
 }
 
 #sec2 {
   padding-top: 2rem !important;
+}
+
+#sec5 {
+  padding-bottom: 3rem !important;
 }
 
 #titleName {
