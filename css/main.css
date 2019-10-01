@@ -28,6 +28,18 @@
   padding: 40px;
 }
 
+#sec3 .button {
+  margin-bottom: 4px;
+}
+
+.footer .social-icons a {
+  padding-right: 1rem;
+}
+
+.footer {
+  padding: 3rem;
+}
+
 @media (max-width: 768px) {
   #titleName {
     font-size: 4rem !important;
