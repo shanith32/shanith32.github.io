@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma-switch@2.0.0/dist/css/bulma-switch.min.css"
+    />
     <!-- Main CSS file -->
     <link rel="stylesheet" href="css/main.css" />
     <!-- Google fonts -->
@@ -45,6 +49,16 @@
     <section class="section" id="sec1">
       <div class="container">
         <div class="column is-10 is-offset-1">
+          <div class="field has-text-centered">
+            <input
+              type="checkbox"
+              class="switch is-large is-dark is-thin"
+              id="darkSwitch"
+            />
+            <label for="darkSwitch"><i class="fas fa-adjust"></i></label>
+          </div>
+          <script src="js/dark-mode-switch.min.js"></script>
+          <br />
           <h1 class="title" id="titleName">Nadika<br />Bandara</h1>
           <p class="subtitle">
             {Software Engineer && Fullstack Developer || Entrepreneur &&
