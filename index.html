@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="home">
+  <!-- {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%} -->
+
+  <h1 class="home-title">💡 Idea • 👨‍💻 Code • 🚀 Deploy</h1>
+  <br>
+  <img src="/assets/profilePic.png" alt="profilePic" class="home-profilePic">
+  <br>
+  <h1 class="home-title">Collaborations:</h1>
+  <ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+    <li><a href="https://gottamenu.app"><img data-weight="5" src="/assets/gottamenu.png"></a></li>
+    <li><a href="https://cc-landing-page-175e3.web.app"><img data-weight="1" src="/assets/eqhire.png"></a></li>
+    <li><a href="https://www.artdillo.com"><img data-weight="5" src="/assets/artdillo.svg"></a></li>
+    <li><a href="https://tradebrary.com"><img data-weight="9" src="/assets/tradebrary.png"></a></li>
+    <li><a href="https://moovabl.com"><img data-weight="6" src="/assets/moovabl.png"></a></li>
+    <li><a href="https://www.techjobz.co"><img data-weight="4" src="/assets/techjobz.webp"></a></li>
+    <li><a href="https://tint-qa.web.app"><img data-weight="5" src="/assets/tint.jpeg"></a></li>
+  </ul>
+
+  <!-- {{ content }} -->
+
+  <!-- {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%} -->
+
+</div>
