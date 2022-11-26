@@ -23,7 +23,7 @@ email: nadika.s.bandara@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a software engineer, startup advisor, investor and an entrepreneur based in Minneapolis, MN.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nadbn.com" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: nadikabandara
 github_username:  shanith32
 
